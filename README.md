@@ -2,7 +2,7 @@
 
 A TensorFlow implementation of the Hierarchical Deep Generative Models with Dual Memory described in
 [**Sequence Modeling with Hierarchical Deep Generative Models with Dual Memory**](https://dl.acm.org/citation.cfm?id=3132952), published as a long paper in CIKM2017.
- the paper for more details.
+Please refer to the paper for more details.
 
 This repository also implements baseline model: Variational Autoencoder for Sentences described in [**Generating Sentences from a Continuous Space**](https://arxiv.org/abs/1511.06349) for comparison.
 
