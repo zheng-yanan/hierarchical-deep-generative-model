@@ -27,9 +27,8 @@ will run default training and save model to ./save/hdgm_ptb.
  - TensorFlow 1.4.0
  - Python 2.7
 
-## References
-
-If you use any source codes included in this toolkit in your work, please cite the following paper. The bibtex are listed below:
+## Reference
+If you use source codes included in this toolkit in your work, please cite the following paper. The bibtex are listed below:
 
     @inproceedings{DBLP:conf/cikm/ZhengWWYJ17,
       author    = {Yanan Zheng and
