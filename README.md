@@ -6,6 +6,18 @@ Please refer to the paper for more details.
 
 This repository also implements baseline model: Variational Autoencoder for Sentences described in [**Generating Sentences from a Continuous Space**](https://arxiv.org/abs/1511.06349) for comparison.
 
+
+## Introduction
+
+This paper proposes Hierarchical Deep Generative Models with Dual Memory (HDGM for short) to address the ineffective difficulties in discrete sequence modeling.
+It is architecturally based on the latent variable model framework, and particularly highlights in the following two aspects.
+First, it extends an improved hierarchically organized multi-layer architecture.
+Second, it adopts memory mechanism along dual directions, respectively denoted as broad memory and deep memory.
+The proposed HDGM is validated on mulitple tasks, including language modeling, document modeling and sentiment analysis, using various measurements, and is proved highly-effective.
+
+![avatar](/pics/hdgm-arch.png)
+
+
 ## Usage:
 	python trainer.py --dataset <dataset_name> --model <model_name>
 will run default training and save model to ./save/hdgm_ptb.
