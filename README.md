@@ -21,7 +21,9 @@ The proposed HDGM is validated on mulitple tasks, including language modeling, d
 
 ## Usage:
 	python trainer.py --dataset <dataset_name> --model <model_name>
-will run default training and save model to ./save/hdgm_ptb.
+will run default training and save model to ./save/hdgm_ptb. 
+Here we provide utitities for two datasets, including **ptb** and **imdb**.
+Two models, respectively **hdgm** and **vae**, could be model selection.
 
 ## Prerequisites
  - TensorFlow 1.4.0
