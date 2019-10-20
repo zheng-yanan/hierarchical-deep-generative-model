@@ -14,8 +14,9 @@ It is architecturally based on the latent variable model framework, and particul
 First, it extends an improved hierarchically organized multi-layer architecture.
 Second, it adopts memory mechanism along dual directions, respectively denoted as broad memory and deep memory.
 The proposed HDGM is validated on mulitple tasks, including language modeling, document modeling and sentiment analysis, using various measurements, and is proved highly-effective.
-
-![avatar](/pics/hdgm-arch.png)
+<p align="center">
+<img src="hdgm-arch.png" width = 50% height = 50%/>
+</p>
 
 
 ## Usage:
